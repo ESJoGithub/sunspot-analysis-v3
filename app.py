@@ -1,7 +1,3 @@
-# --------------------------------------------------
-# [4] 시각화한 내용을 Steamlit에 배포하세요.
-# 위에서 생성한 sunspots_for_prophet.csv를 다운로드 받아, 루트/data 아래에 넣어주세요.
-# --------------------------------------------------
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -124,3 +120,4 @@ st.pyplot(fig4)
 st.subheader("📌 Residual Summary Statistics")
 # TODO: merged["residual"].describe()를 출력하세요.
 st.write(merged["residual"].describe())
+
